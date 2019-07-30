@@ -365,6 +365,14 @@ Supported Units
 * g (g-force)
 * m/s2
 
+### Fuel Consumption
+* l/100km
+* l/km
+* l/m
+* mpg
+* mpg-us
+* mpg-uk
+
 
 ### Want More?
 

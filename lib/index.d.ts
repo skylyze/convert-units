@@ -21,6 +21,7 @@ declare module "convert-units" {
     type uEnergy = "Wh" | "mWh" | "kWh" | "MWh" | "GWh" | "J" | "kJ"; // Energy
     type uReactiveEnergy = "VARh" | "mVARh" | "kVARh" | "MVARh" | "GVARH"; // Reactive Energy
     type uAngle = "deg" | "rad" | "grad" | "arcmin" | "arcsec"; // Angle
+    type uFuelConsumption = "l/100km" | "l/km" | "l/m" | "mpg" | "mpg-us" | "mpg-uk" // Fuel Consumption
 
 
     type unit = uDistance 
@@ -67,7 +68,8 @@ declare module "convert-units" {
                  | "reactivePower"
                  | "energy"
                  | "reactiveEnergy"
-                 | "angle";
+                 | "angle"
+                 | "fuelConsumption";
 
     type system = "metric"
                 | "imperial"
